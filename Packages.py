@@ -5,7 +5,7 @@ def install(package_name):
             pip.main(['install', package_name])
         except:
             print("Unable to install " + package_name)
-
-imports = ['pillow','pyscreenshot', 'pyautogui']
-for i in imports:
-    install(i)
+def run():
+    imports = ['pillow','pyscreenshot', 'pyautogui']
+    for i in imports:
+        install(i)
