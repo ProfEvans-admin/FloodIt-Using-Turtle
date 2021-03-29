@@ -9,6 +9,7 @@
 #run pip install pyautogui
 #run pip install for any other red imports
 
+import Packages
 import turtle as trtl # trtl is the GUI
 import random as rand #randomizes color choice
 import threading # less lag I think
@@ -16,6 +17,8 @@ from PIL import Image #analizes screenshot specifically RGB
 import pyscreenshot #takes a screenshot
 import pyautogui #get position for Screenshot
 import time as t #I didnt use this
+
+Packages.run()
 
 #INIT trtl
 wn = trtl.Screen()
